@@ -1,5 +1,6 @@
-# JSON结构对比工作台
+# 长文审校批注工作台
 
-这是一个离线运行的Vite和React前端骨架。安装依赖后运行`npm run dev`即可打开开发服务器，`npm test`运行兼容测试，`npm run build`执行类型检查和生产构建。
+这是TypeScript5.9.3、React19.3.0、Vite6.4.3的最小前端起点，业务功能待实现。
 
-当前骨架提供双栏JSON输入和基础递归对比，后续实现完整树视图、过滤、键盘操作和JSONPatch导出。
+安装依赖：`npm ci`。开发启动：`npm run dev`。生产构建：`npm run build`。
+测试工具为Vitest3.2.7，编写测试后使用`npm test`运行，当前骨架没有业务测试。
